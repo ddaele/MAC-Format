@@ -16,7 +16,6 @@ MAC Format is a simple yet useful tool that converts raw MAC addresses (e.g., `0
 - ✅ Clipboard integration - reads from and writes to clipboard
 - ✅ Fast and lightweight
 - ✅ Simple one-click operation
-- ✅ Supports various MAC address formats
 
 ## Usage
 
@@ -48,9 +47,6 @@ MAC Format is a simple yet useful tool that converts raw MAC addresses (e.g., `0
 Input:  001A2B3C4D5E
 Output: 00:1A:2B:3C:4D:5E
 
-Input:  00-1A-2B-3C-4D-5E
-Output: 00:1A:2B:3C:4D:5E
-
 Input:  001a2b3c4d5e
 Output: 00:1A:2B:3C:4D:5E
 ```
@@ -59,19 +55,8 @@ Output: 00:1A:2B:3C:4D:5E
 
 The utility:
 1. Reads the clipboard content
-2. Removes any existing separators (hyphens, spaces, etc.)
-3. Validates the MAC address format
-4. Converts it to the standard colon-separated format
-5. Copies the result back to the clipboard
-
-## Common MAC Address Formats
-
-| Format | Example |
-|--------|----------|
-| Colon-separated | `00:1A:2B:3C:4D:5E` |
-| Hyphen-separated | `00-1A-2B-3C-4D-5E` |
-| Dot-separated | `001a.2b3c.4d5e` |
-| Raw (no separator) | `001A2B3C4D5E` |
+2. Converts it to the standard colon-separated format and changes to uppercase when needed
+3. Copies the result back to the clipboard
 
 ## License
 
