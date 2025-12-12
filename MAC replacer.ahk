@@ -7,4 +7,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 F10::
 Clipboard := RegExReplace(Clipboard,"(?<!^.)(..)(?=[^$])","$1:")
+StringUpper, Clipboard, Clipboard  ; Convert to uppercase
 return
