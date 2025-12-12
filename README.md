@@ -84,3 +84,9 @@ Feel free to fork this repository and submit pull requests for any improvements.
 ## Support
 
 For issues or questions, please open an issue on GitHub.
+
+---
+
+## ⚠️ AI Disclaimer
+
+This README was generated with the assistance of AI. While the documentation has been reviewed and formatted, please verify that all information is accurate and complete for your specific use case. If you notice any inaccuracies or have suggestions for improvement, please feel free to open an issue or submit a pull request.
