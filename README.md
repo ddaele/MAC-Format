@@ -9,6 +9,7 @@ A utility to format MAC addresses from clipboard to the standard colon-separated
 ## Description
 
 MAC Format is a simple yet useful tool that converts raw MAC addresses (e.g., `001A2B3C4D5E`) to the standard colon-separated format (e.g., `00:1A:2B:3C:4D:5E`). It reads from your clipboard and automatically formats the address.
+For AHK V1.1
 
 ## Features
 
