@@ -21,7 +21,7 @@ MAC Format is a simple yet useful tool that converts raw MAC addresses (e.g., `0
 ## Usage
 
 1. Copy a MAC address to your clipboard (raw format without colons)
-2. Run the MAC Format utility
+2. Run the MAC Format utility (F10)
 3. The formatted MAC address is copied back to your clipboard
 4. Paste the formatted address wherever needed
 
