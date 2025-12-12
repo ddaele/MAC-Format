@@ -27,7 +27,6 @@ MAC Format is a simple yet useful tool that converts raw MAC addresses (e.g., `0
 ## Supported Input Formats
 
 - `001A2B3C4D5E` → `00:1A:2B:3C:4D:5E`
-- `00-1A-2B-3C-4D-5E` → `00:1A:2B:3C:4D:5E`
 - `001a2b3c4d5e` → `00:1A:2B:3C:4D:5E` (case-insensitive)
 
 ## Requirements
